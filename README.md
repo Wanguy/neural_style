@@ -1,6 +1,6 @@
 # neural_style
 
-[Simplified Chinese Documentation](https://github.com/Wanguy/neural_style/blob/master/README.sc.md)
+[![Travis](https://img.shields.io/badge/Language-SC-brightgreen.svg)](https://github.com/Wanguy/neural_style/blob/master/README.sc.md)[Simplified Chinese Documentation](https://github.com/Wanguy/neural_style/blob/master/README.sc.md)
 
 An implementation of [neural style](http://arxiv.org/pdf/1508.06576v2.pdf) in TensorFlow.
 
