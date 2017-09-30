@@ -1,6 +1,6 @@
 # neural_style
 
-[English Documentation](https://github.com/Wanguy/neural_style/blob/master/README.md)
+[![AppVeyor](https://img.shields.io/badge/Language-EN-brightgreen.svg)](https://github.com/Wanguy/neural_style/blob/master/README.sc.md)[English Documentation](https://github.com/Wanguy/neural_style/blob/master/README.md)
 
 在TensorFlow中实现 [neural style](http://arxiv.org/pdf/1508.06576v2.pdf)。
 
