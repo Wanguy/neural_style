@@ -1,6 +1,6 @@
 # neural_style
 
-Simplified Chinese Documentation
+[Simplified Chinese Documentation](https://github.com/Wanguy/neural_style/blob/master/README.sc.md)
 
 An implementation of [neural style](http://arxiv.org/pdf/1508.06576v2.pdf) in TensorFlow.
 
@@ -12,6 +12,10 @@ See [here](https://github.com/lengstrom/fast-style-transfer) for an implementati
 
 ## Requirements
 
+### Data Files
+
+[Pre-trained VGG network](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5)(vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5), put it into `/Users/YOURNAME/.keras/models`, or specify its location using the`--network`option.
+
 ### Dependencies
 
 You can install Python dependencies using `pip install -r requirements.txt`, and it should just work. If you want to install the packages manually, here's a list:
@@ -20,7 +24,6 @@ You can install Python dependencies using `pip install -r requirements.txt`, and
 - [H5PY](http://www.h5py.org/)
 - [Pillow](http://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
 - [Kera](https://keras.io/)
-- [Deep learning model](https://github.com/fchollet/deep-learning-models)
 
 ## Running
 
@@ -34,4 +37,4 @@ Use `--checkpoint-output` and `--checkpoint-iterations` to save checkpoint image
 
 ## License
 
-Copyright (c) 2015-2017 Anish Athalye. Released under GPLv3. See [LICENSE.txt](https://github.com/Wanguy/neural_style/blob/master/LICENSE) for details.
+Copyright (c) 2015-2017 Wanguy. Released under GPLv3. See [LICENSE.txt](https://github.com/Wanguy/neural_style/blob/master/LICENSE) for details.
